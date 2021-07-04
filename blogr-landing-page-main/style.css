@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400&family=Ubuntu:wght@400;500;700&display=swap");
+
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-1 {
+  background: hsl(356, 100%, 66%);
+  width: 100%;
+  height: 60vh;
+  border-bottom-left-radius: 90px;
+}
+
+.navbar {
+  /* background-color: turquoise; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__container {
+  /* background: violet; */
+  height: 70px;
+  width: 100%;
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* background: chartreuse; */
+  display: flex;
+  align-items: center;
+  height: 11vh;
+  width: 10%;
+  justify-content: center;
+}
+
+.menu {
+  /* background: cornflowerblue; */
+  width: 60%;
+}
+.dropdown__menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background: chartreuse; */
+  height: 70px;
+  font-family: "Overpass", sans-serif;
+  width: 60%;
+}
+
+/* Dropdown button */
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: hsl(0, 0%, 100%);
+
+  padding: 14px 16px;
+  cursor: pointer;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown__menu a:hover,
+.dropbtn:hover {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content .links {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown__menu .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropbtn img:hover .dropdown-dropdown-content {
+  display: block;
+}
+
+.buttons {
+  /* background: yellow; */
+  width: 240px;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  width: 104px;
+  padding: 10px 0;
+  border-radius: 24px;
+  background: hsl(0, 0%, 100%);
+  font-size: 16px;
+  border: 1px solid hsl(0, 0%, 100%);
+  color: hsl(356, 100%, 66%);
+}
