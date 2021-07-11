@@ -13,6 +13,7 @@ font-family: 'Ubuntu', sans-serif; */
   background: hsl(356, 100%, 66%);
   width: 100%;
   height: 60vh;
+  overflow: hidden;
   border-bottom-left-radius: 90px;
 }
 
@@ -122,6 +123,72 @@ font-family: 'Ubuntu', sans-serif; */
   border-radius: 24px;
   background: hsl(0, 0%, 100%);
   font-size: 16px;
+  font-family: "Overpass", sans-serif;
   border: 1px solid hsl(0, 0%, 100%);
   color: hsl(356, 100%, 66%);
+  font-weight: bold;
+}
+
+.header {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: aqua; */
+  overflow: hidden;
+}
+
+.header-content {
+  /* background-color: blue; */
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-content .buttons {
+  /* padding: 0px 47px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+h1.main-heading {
+  font-size: x-large;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+p.main-para {
+  font-size: 15px;
+  font-weight: lighter;
+  color: hsl(0, 0%, 100%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* section 2 styling begins here */
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section2-main-heading {
+  height: 176px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Overpass", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+  /* z-index: 9; */
+  color: hsl(207, 13%, 34%);
+  /* background: yellowgreen; */
 }
